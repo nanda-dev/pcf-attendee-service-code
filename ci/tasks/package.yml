@@ -7,9 +7,10 @@ image_resource:
     repository: java
     tag: "8"
 
+
 outputs:
 - name: package-output
 
 run:
-  path: attendee-service/ci/tasks/package.sh
+  path: attendee-service-source/ci/tasks/package.sh
 
