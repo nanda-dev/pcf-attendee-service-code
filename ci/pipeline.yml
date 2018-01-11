@@ -3,8 +3,7 @@ resources:
 - name: attendee-service-source
   type: git
   source:
-    uri: https://github.com/pivotal-enablement/attendee-service
-- code:
+    uri: https://github.com/nanda-dev/pcf-attendee-service-code
     branch: master
 
 - name: deploy-attendee-service
